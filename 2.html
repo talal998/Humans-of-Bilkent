@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="story.css?v=1.0">
+    <link rel="stylesheet" href="footer.css?v=1.0">
+
+    <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+
+  
+    <title>HOB Story II</title>
+</head>
+<body>
+    <div>
+        <div id="late"  onclick="window.open('index.html','_self')" style="cursor: pointer;">
+            <h2 id="latest" >
+                HUMANS OF BILKENT
+
+            </h2>
+
+            <h1 id="latest1">EVERY BILKENTLI IS INTERESTING</h1>
+        </div>
+       
+        <table id="table">
+            <tr>
+
+                <td id="picPlace"> 
+                    <img id="img" src="img/lowRes/2.jpeg" alt="">         
+                   
+                </td>
+                <td id="content" rowspan="3">
+                    <p class="subhead">“People are reserved around Bilkent, aren't they? This indifferent attitude in Bilkent's community became more apparent to me during my summer in Ohio, US. I worked at a winery, and a significant part of my day revolved around meeting people from various backgrounds. A common characteristic amongst most of these people was their ability to open up to a stranger. They share and encourage you to share. I felt that approaching a stranger and opening up a little was just a regular part of their day. <br><br>
+                        During my stay in the US, I gradually realized how talking to and smiling at strangers might seem trivial yet make a huge difference in establishing a community without social awkwardness. That's the most important lesson that I brought back with me.  <br><br>
+                        I was not the type of person who used to randomly talk with others. I guess I smile more often now or say 'hi' to a familiar stranger because that's the least I can to do to make a difference. Just today, I saw a girl standing in front of a mirror and realized that we've been living in the same dorm for about a year now and have never talked. I confronted her with some small talk. Things felt strange for a couple of seconds at first; however, at least we are now not completely oblivious to each other. I think it makes me feel better and might even help others build up their confidence.  <br><br>
+                        I would love to live on a campus where smiling at strangers is not a burden. A place where people are more engaged with one another and a community where people can open up to strangers. Wouldn't it help reduce the stress that people experience at this university?  <br><br>
+                        My advice to the people around here is, always be open to sharing something. It doesn't have to be personal!” <br><br> <span id="hobIg" onclick="window.open('https://www.instagram.com/humansofbilkent')" style="cursor: pointer;">#humansofbilkent</span> </p>
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td>
+                  
+                </td>
+            </tr>
+            
+        </table>
+       
+    </div>
+    <footer>
+        <div class="footer-top">
+            
+            <table class="container">
+                <tr id="foottitle">
+                    <h1 id="hob">HUMANS OF BILKENT </h1>
+                </tr>
+                <tr id="fmtR">
+                    
+                    <td id="tdl">
+                        <div class="footer-menu">
+                            <h2>Menu </h2>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html#blogM">Stories</a></li>
+                                <li><a href="shop.html">Shop</a>   </li>
+                            </ul>                        
+                        </div>
+                    </td>
+                    <td id="tdl"> 
+                        <div class="footer-menu">
+                            <h2>Reach us</h2>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li id="ulT" onclick="window.open('https://www.instagram.com/humansofbilkent')" style="cursor: pointer;"><a>@humansofbilkent</a></li>
+                            </ul>                        
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+
+        
+
+           
+    </footer>
+    
+  
+    
+</body>
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var late = document.getElementById("late");
+    var fixed = late.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= fixed) {
+            late.classList.add("fixed")
+        } else {
+            late.classList.remove("fixed");
+        }
+    }
+
+</script>    
+</html>

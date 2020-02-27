@@ -1,0 +1,177 @@
+footer
+{
+    position: absolute;
+    width: 100%;
+    margin-left: -8px;
+    
+}
+
+#hob
+{
+    font-family: inherit;
+    font-weight: 10;
+
+    font-size: 2em;
+
+    letter-spacing: 10px;
+
+    text-align: center;
+    color: beige;
+    padding-bottom: 5%;
+    padding-top: 7%;
+
+}
+
+.footer-top{background:#333;
+    color: #999;
+    /* margin-right: -10px;
+    margin-left: -10px;
+    margin-bottom: -65px; */
+}
+
+.footer-menu h2 {
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.footer-menu ul li {
+    
+    padding: 5px 0;
+}
+.footer-menu a {
+    display: block;
+    margin-left: 15px;
+    padding-bottom: 3px;
+    margin-right: 30%;
+    text-decoration: beige;
+    color: beige;
+    border-bottom: 1px dashed #555;
+
+}
+.footer-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+#foottitle{
+    text-align: center;
+    color: beige;
+}
+.container {
+    width: 100%;
+
+    font-family: inherit;
+    font-weight: 10;
+
+    font-size: 0.9em;
+    color: beige;
+    align-items: center;
+    
+    
+}
+
+
+ #tdl{
+
+    /* border-spacing:  10px; */
+    align-content: center;
+    
+    font-family: inherit;
+    font-weight: 10;
+
+    font-size: 0.9em;
+    color: beige;
+    width:40%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    float: left;
+
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: -10%;
+
+
+}
+
+#fmtR
+{
+    align-items: center;
+    justify-content: center;}
+
+
+.footer-bottom {
+    background: black;
+    color:white;
+    padding-bottom: 15px;
+  }
+
+#copyright {
+    margin: 0px 10px;
+    padding-top: 10px;
+  }
+
+.footer-icon {
+    font-size: 30px;
+    text-align: left;
+  }
+  /* footer
+  {
+      position: absolute;
+      width: 100%;
+      margin-left: -0.6%;
+  } */
+.footer-menu{
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 20%;
+    margin-left: 15%;
+}
+@media screen and (max-width : 510px) {
+   
+    #hob
+    {
+       
+        font-size: 1.2em;
+    }
+    #tdl
+    {
+        font-size: 82%;
+    }
+
+
+@media screen and (max-width : 380px) {
+   
+    #hob
+    {
+       
+        font-size: 1.1em;
+    }
+    #tdl
+    {
+        font-size: 62%;
+    }
+
+}@media screen and (max-width : 361px) {
+   
+    #hob
+    {
+       
+        font-size: 1.0em;
+        letter-spacing: 5px;
+    }
+
+}
+@media screen and (max-width : 310px) {
+   
+    #tdl
+    {
+        font-size: 52%;
+    }
+
+}
+}
